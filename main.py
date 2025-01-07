@@ -134,6 +134,9 @@ class TicTacToe(QWidget):
             return
         
         # Aplica mișcarea
+        
+        print(row,col)
+        
         self.logic.subboards[subgrid_idx].make_move(move)
         self.buttons[row][col].setText(self.current_player)
 
