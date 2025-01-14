@@ -1,3 +1,6 @@
+from PyQt5.QtWidgets import QApplication
+from gameSettings import *
+
 import sys
 from gameSettings import *
 
